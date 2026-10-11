@@ -1,0 +1,17 @@
+# Full-size originals stay local: they're large and carry camera/GPS metadata.
+# Only the resized, metadata-stripped copies in assets/photos/ get published.
+/photos/
+
+# Working drafts and review notes
+drafts/
+
+# Generated stand-ins used until real photos are processed
+assets/photos/_placeholder/
+
+# Local editor/preview settings
+.claude/
+
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini

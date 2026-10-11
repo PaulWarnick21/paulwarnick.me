@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Paul Warnick</title>
+  <meta name="description" content="Paul Warnick, Technical Team Lead at Ford Motor Company">
+  <link rel="canonical" href="https://paulwarnick.me/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://paulwarnick.me/">
+  <meta property="og:title" content="Paul Warnick">
+  <meta property="og:description" content="Technical Team Lead at Ford Motor Company">
+  <meta property="og:image" content="https://paulwarnick.me/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1512" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..600,0..100&family=Inter:wght@400..600&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+
+  <script>
+    // Apply the saved theme before first paint so there's no flash.
+    (function () {
+      var root = document.documentElement;
+      root.classList.add('js');
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+      } catch (e) {}
+    })();
+  </script>
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/lightbox.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Paul Warnick",
+    "url": "https://paulwarnick.me/",
+    "jobTitle": "Technical Team Lead",
+    "worksFor": { "@type": "Organization", "name": "Ford Motor Company" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "McMaster University" },
+    "sameAs": [
+      "https://www.linkedin.com/in/paulwarnick/",
+      "https://github.com/PaulWarnick21"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header on-hero" data-header>
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Paul Warnick, back to top">PW</a>
+
+      <nav class="nav" aria-label="Sections">
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list" data-nav-toggle>
+          <span class="visually-hidden">Menu</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+        </button>
+        <ul class="nav-list" id="nav-list" data-nav-list>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-label="Introduction">
+      <!-- hero:start -->
+      <picture>
+        <source media="(orientation: portrait)" srcset="assets/photos/hero-tall-750.jpg 750w, assets/photos/hero-tall-1200.jpg 1200w" sizes="100vw">
+        <img class="hero-img" src="assets/photos/hero-wide-1600.jpg" srcset="assets/photos/hero-wide-1600.jpg 1600w, assets/photos/hero-wide-2560.jpg 2560w" sizes="100vw" alt="" fetchpriority="high" decoding="async">
+      </picture>
+      <p class="hero-credit">Half Dome, Yosemite</p>
+      <!-- hero:end -->
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="wrap hero-content">
+        <h1 class="hero-name">Paul Warnick</h1>
+        <p class="hero-tagline">Technical Team Lead at Ford Motor Company</p>
+        <ul class="link-row" aria-label="Links">
+          <li><a class="pill" href="https://github.com/PaulWarnick21" rel="me noopener" target="_blank">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8.5 8-4 4 4 4M15.5 8l4 4-4 4"/></svg>GitHub</a></li>
+          <li><a class="pill" href="#contact" data-email>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.5 8 5.5 8-5.5"/></svg>Email</a></li>
+          <li><a class="pill" href="https://www.linkedin.com/in/paulwarnick/" rel="me noopener" target="_blank">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 10.5V17M8 7.5v.01M12 17v-6.5M12 13.5a2.5 2.5 0 0 1 5 0V17"/></svg>LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="split">
+          <h2 class="section-title reveal" id="about-title">About</h2>
+          <p class="lead reveal">I'm an engineering leader who's spent the past 8 years at Ford Motor Company overhauling how we design, build and test software. Along the way, I've brought our defect rate down to near zero and enjoyed coaching and guiding the team to be the very best they can be.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <div class="split">
+          <h2 class="section-title reveal" id="experience-title">Experience</h2>
+          <div>
+            <ol class="timeline">
+              <li class="tl-item is-current reveal">
+                <p class="tl-when">2023 – Now</p>
+                <div class="tl-body">
+                  <h3 class="tl-role">Team Lead</h3>
+                  <p class="tl-org">Ford Motor Company</p>
+                  <p class="tl-note">Revolutionizing vehicle software updates</p>
+                </div>
+              </li>
+              <li class="tl-item reveal">
+                <p class="tl-when">2021 – 2023</p>
+                <div class="tl-body">
+                  <h3 class="tl-role">Senior Software Developer</h3>
+                  <p class="tl-org">Ford Motor Company</p>
+                  <p class="tl-note">Lead developer and project coordinator for the software update feature</p>
+                </div>
+              </li>
+              <li class="tl-item reveal">
+                <p class="tl-when">2018 – 2021</p>
+                <div class="tl-body">
+                  <h3 class="tl-role">Software Developer</h3>
+                  <p class="tl-org">Ford Motor Company</p>
+                  <p class="tl-note">Created the software update feature for the Mustang <span class="nowrap">Mach-E</span> and <span class="nowrap">F-150</span> Lightning</p>
+                </div>
+              </li>
+              <li class="tl-item reveal">
+                <p class="tl-when">2016 – 2017</p>
+                <div class="tl-body">
+                  <h3 class="tl-role">Software Developer – Internship</h3>
+                  <p class="tl-org">BlackBerry</p>
+                  <p class="tl-note">Designed, developed and tested Java security libraries for vehicle-to-vehicle communications</p>
+                </div>
+              </li>
+              <li class="tl-item reveal">
+                <p class="tl-when">2016</p>
+                <div class="tl-body">
+                  <h3 class="tl-role">Software Developer – Internship</h3>
+                  <p class="tl-org">McMaster University</p>
+                  <p class="tl-note">Designed and implemented a C++ <span class="nowrap">back-end</span> for steelmaking simulation web apps</p>
+                </div>
+              </li>
+            </ol>
+
+            <h3 class="sub-title reveal">Education</h3>
+            <ol class="timeline">
+              <li class="tl-item is-education reveal">
+                <p class="tl-when">2013 – 2018</p>
+                <div class="tl-body">
+                  <h3 class="tl-role">Bachelor of Applied Science – Computer Science</h3>
+                  <p class="tl-org">McMaster University</p>
+                  <ul class="tags tl-tags"><li>Honours</li><li>Minor in Business</li></ul>
+                </div>
+              </li>
+            </ol>
+
+            <div class="toolbox reveal">
+              <h3 class="toolbox-title">Toolbox</h3>
+              <dl class="toolbox-groups">
+                <div><dt>Team Leadership</dt><dd><ul class="tags"><li>Technical Direction</li><li>Scrum/Agile</li><li>Process Planning</li><li>Requirement Creation</li><li>Test Coordination</li><li>JIRA</li><li>Hiring/Interviewing</li><li>Coaching</li></ul></dd></div>
+                <div><dt>Building Software</dt><dd><ul class="tags"><li>Architecture Decisions</li><li>PR Reviews</li><li>Hands-on Coding</li><li>JavaScript</li><li>React w/ Flow</li><li>HTML/CSS</li><li>C++</li></ul></dd></div>
+                <div><dt>AI</dt><dd><ul class="tags"><li>Microsoft Copilot</li><li>Claude Code</li><li>ChatGPT</li></ul></dd></div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-photos" id="hobbies" aria-labelledby="hobbies-title">
+      <div class="wrap">
+        <div class="split">
+          <h2 class="section-title reveal" id="hobbies-title">Hobbies and Interests</h2>
+          <p class="lead reveal">My hobbies include anything outdoors, anything automotive, a variety of sports, reading, cooking, baking, and travelling the world.</p>
+        </div>
+
+        <!-- gallery:start -->
+        <div class="justified gallery" data-collapsible data-gallery>
+          <a class="photo" href="assets/photos/img-6320-2400.jpg" data-w="12314" data-h="3904" data-caption="Crater Lake, Oregon" style="--ar: 3.1542; --tone: #5978a8"><img src="assets/photos/img-6320-800.jpg" srcset="assets/photos/img-6320-800.jpg 800w, assets/photos/img-6320-1600.jpg 1600w" sizes="(max-width: 520px) 662px, (max-width: 900px) 971px, 1413px" width="800" height="254" alt="Panorama of a deep blue crater lake with a small island, seen from the rim" loading="lazy" decoding="async"><span class="photo-caption">Crater Lake, Oregon</span></a>
+          <a class="photo" href="assets/photos/img-3201-1600.jpg" data-w="3024" data-h="4032" data-caption="Redwoods, California" style="--ar: 0.75; --tone: #70766a"><img src="assets/photos/img-3201-800.jpg" srcset="assets/photos/img-3201-800.jpg 800w, assets/photos/img-3201-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A hiker on a forest trail between giant trees" loading="lazy" decoding="async"><span class="photo-caption">Redwoods, California</span></a>
+          <a class="photo" href="assets/photos/img-7991-1600.jpg" data-w="3024" data-h="4032" data-caption="Oregon Coast" style="--ar: 0.75; --tone: #506d9c"><img src="assets/photos/img-7991-800.jpg" srcset="assets/photos/img-7991-800.jpg 800w, assets/photos/img-7991-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Waves rolling onto a dark sand beach" loading="lazy" decoding="async"><span class="photo-caption">Oregon Coast</span></a>
+          <a class="photo" href="assets/photos/img-9425-1600.jpg" data-w="3024" data-h="4032" data-caption="Kaaterskill Falls, New York" style="--ar: 0.75; --tone: #7a705c"><img src="assets/photos/img-9425-800.jpg" srcset="assets/photos/img-9425-800.jpg 800w, assets/photos/img-9425-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A tall waterfall pouring into a rocky gorge" loading="lazy" decoding="async"><span class="photo-caption">Kaaterskill Falls, New York</span></a>
+          <a class="photo" href="assets/photos/img-6676-1600.jpg" data-w="3024" data-h="4032" data-caption="Whiteface Mountain, New York" style="--ar: 0.75; --tone: #687690"><img src="assets/photos/img-6676-800.jpg" srcset="assets/photos/img-6676-800.jpg 800w, assets/photos/img-6676-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A snow-covered mountain above a frosted forest" loading="lazy" decoding="async"><span class="photo-caption">Whiteface Mountain, New York</span></a>
+          <a class="photo" href="assets/photos/img-5385-2400.jpg" data-w="9064" data-h="3934" data-caption="Norway" style="--ar: 2.304; --tone: #6883a2"><img src="assets/photos/img-5385-800.jpg" srcset="assets/photos/img-5385-800.jpg 800w, assets/photos/img-5385-1600.jpg 1600w" sizes="(max-width: 520px) 484px, (max-width: 900px) 710px, 1032px" width="800" height="347" alt="Panorama of a fjord between snow-covered mountains" loading="lazy" decoding="async"><span class="photo-caption">Norway</span></a>
+          <a class="photo" href="assets/photos/img-7759-1600.jpg" data-w="3024" data-h="4032" data-caption="Redwoods, California" style="--ar: 0.75; --tone: #657879"><img src="assets/photos/img-7759-800.jpg" srcset="assets/photos/img-7759-800.jpg 800w, assets/photos/img-7759-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="The bow of a yellow kayak on a clear, tree-lined river" loading="lazy" decoding="async"><span class="photo-caption">Redwoods, California</span></a>
+          <a class="photo" href="assets/photos/img-2401-1600.jpg" data-w="3024" data-h="4032" data-caption="Oregon Coast" style="--ar: 0.75; --tone: #5985ae"><img src="assets/photos/img-2401-800.jpg" srcset="assets/photos/img-2401-800.jpg 800w, assets/photos/img-2401-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A sandy beach curving along a bay" loading="lazy" decoding="async"><span class="photo-caption">Oregon Coast</span></a>
+          <a class="photo" href="assets/photos/img-6225-1600.jpg" data-w="3024" data-h="4032" data-caption="Grand Canyon of the Yellowstone" style="--ar: 0.75; --tone: #6a7f89"><img src="assets/photos/img-6225-800.jpg" srcset="assets/photos/img-6225-800.jpg 800w, assets/photos/img-6225-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A river winding through a deep canyon with steep, pale walls" loading="lazy" decoding="async"><span class="photo-caption">Grand Canyon of the Yellowstone</span></a>
+          <a class="photo" href="assets/photos/img-0069-1600.jpg" data-w="3024" data-h="4032" data-caption="Butchart Gardens, British Columbia" style="--ar: 0.75; --tone: #6c6a46"><img src="assets/photos/img-0069-800.jpg" srcset="assets/photos/img-0069-800.jpg 800w, assets/photos/img-0069-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Stepping stones through a lush Japanese-style garden" loading="lazy" decoding="async"><span class="photo-caption">Butchart Gardens, British Columbia</span></a>
+          <a class="photo" href="assets/photos/img-1987-1600.jpg" data-w="3024" data-h="4032" data-caption="French Alps" style="--ar: 0.75; --tone: #76849c"><img src="assets/photos/img-1987-800.jpg" srcset="assets/photos/img-1987-800.jpg 800w, assets/photos/img-1987-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A freshly groomed ski run below snowy peaks" loading="lazy" decoding="async"><span class="photo-caption">French Alps</span></a>
+          <a class="photo" href="assets/photos/img-7710-2400.jpg" data-w="11030" data-h="3870" data-caption="Tenaya Lake, Yosemite" style="--ar: 2.8501; --tone: #517997"><img src="assets/photos/img-7710-800.jpg" srcset="assets/photos/img-7710-800.jpg 800w, assets/photos/img-7710-1600.jpg 1600w" sizes="(max-width: 520px) 599px, (max-width: 900px) 878px, 1277px" width="800" height="281" alt="Panorama of a clear mountain lake with a granite peak behind it" loading="lazy" decoding="async"><span class="photo-caption">Tenaya Lake, Yosemite</span></a>
+          <a class="photo" href="assets/photos/img-7561-1600.jpg" data-w="3024" data-h="4032" data-caption="Arizona" style="--ar: 0.75; --tone: #656056"><img src="assets/photos/img-7561-800.jpg" srcset="assets/photos/img-7561-800.jpg 800w, assets/photos/img-7561-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Sunbeams over a mountain and an open road at dusk" loading="lazy" decoding="async"><span class="photo-caption">Arizona</span></a>
+          <a class="photo" href="assets/photos/img-1836-1600.jpg" data-w="3024" data-h="4032" data-caption="French Alps" style="--ar: 0.75; --tone: #4d6787"><img src="assets/photos/img-1836-800.jpg" srcset="assets/photos/img-1836-800.jpg 800w, assets/photos/img-1836-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Snow-capped mountains seen from a wooden chalet balcony" loading="lazy" decoding="async"><span class="photo-caption">French Alps</span></a>
+          <a class="photo" href="assets/photos/img-2748-1600.jpg" data-w="3024" data-h="4032" data-caption="Tofino, British Columbia" style="--ar: 0.75; --tone: #889ba2"><img src="assets/photos/img-2748-800.jpg" srcset="assets/photos/img-2748-800.jpg 800w, assets/photos/img-2748-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A crescent beach and forested coastline seen from above" loading="lazy" decoding="async"><span class="photo-caption">Tofino, British Columbia</span></a>
+          <a class="photo" href="assets/photos/img-0383-1600.jpg" data-w="3024" data-h="4032" style="--ar: 0.75; --tone: #607181"><img src="assets/photos/img-0383-800.jpg" srcset="assets/photos/img-0383-800.jpg 800w, assets/photos/img-0383-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A pumpkin patch on a sunny autumn day" loading="lazy" decoding="async"></a>
+          <a class="photo" href="assets/photos/img-2209-2400.jpg" data-w="7176" data-h="3936" data-caption="Lyon, France" style="--ar: 1.8232; --tone: #547592"><img src="assets/photos/img-2209-800.jpg" srcset="assets/photos/img-2209-800.jpg 800w, assets/photos/img-2209-1600.jpg 1600w" sizes="(max-width: 520px) 383px, (max-width: 900px) 562px, 817px" width="800" height="439" alt="Panorama of a city spread out below a wooded hilltop" loading="lazy" decoding="async"><span class="photo-caption">Lyon, France</span></a>
+          <a class="photo" href="assets/photos/img-3337-1600.jpg" data-w="3024" data-h="4032" data-caption="El Capitan, Yosemite" style="--ar: 0.75; --tone: #646d67"><img src="assets/photos/img-3337-800.jpg" srcset="assets/photos/img-3337-800.jpg 800w, assets/photos/img-3337-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A sheer granite cliff rising above pine trees" loading="lazy" decoding="async"><span class="photo-caption">El Capitan, Yosemite</span></a>
+          <a class="photo" href="assets/photos/img-7618-1600.jpg" data-w="3024" data-h="4032" data-caption="Death Valley, California" style="--ar: 0.75; --tone: #65708e"><img src="assets/photos/img-7618-800.jpg" srcset="assets/photos/img-7618-800.jpg 800w, assets/photos/img-7618-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A desert valley with a bright salt flat, seen from a ridge" loading="lazy" decoding="async"><span class="photo-caption">Death Valley, California</span></a>
+          <a class="photo" href="assets/photos/img-5209-2400.jpg" data-w="10976" data-h="3808" data-caption="Norway" style="--ar: 2.8824; --tone: #828e97"><img src="assets/photos/img-5209-800.jpg" srcset="assets/photos/img-5209-800.jpg 800w, assets/photos/img-5209-1600.jpg 1600w" sizes="(max-width: 520px) 605px, (max-width: 900px) 888px, 1291px" width="800" height="278" alt="Panorama from a ski slope, with the sun breaking through clouds over the mountains" loading="lazy" decoding="async"><span class="photo-caption">Norway</span></a>
+          <a class="photo" href="assets/photos/img-8015-1600.jpg" data-w="3024" data-h="4032" data-caption="Washington Coast" style="--ar: 0.75; --tone: #5f5e5a"><img src="assets/photos/img-8015-800.jpg" srcset="assets/photos/img-8015-800.jpg 800w, assets/photos/img-8015-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A book held up on a pebble beach at sunset" loading="lazy" decoding="async"><span class="photo-caption">Washington Coast</span></a>
+          <a class="photo" href="assets/photos/img-2170-1600.jpg" data-w="3024" data-h="4032" data-caption="Watkins Glen, New York" style="--ar: 0.75; --tone: #61694a"><img src="assets/photos/img-2170-800.jpg" srcset="assets/photos/img-2170-800.jpg 800w, assets/photos/img-2170-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A stone bridge and waterfall inside a narrow, mossy gorge" loading="lazy" decoding="async"><span class="photo-caption">Watkins Glen, New York</span></a>
+          <a class="photo" href="assets/photos/img-9381-1600.jpg" data-w="3024" data-h="4032" data-caption="Strathcona Park, British Columbia" style="--ar: 0.75; --tone: #48719f"><img src="assets/photos/img-9381-800.jpg" srcset="assets/photos/img-9381-800.jpg 800w, assets/photos/img-9381-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A turquoise alpine lake below jagged mountain peaks" loading="lazy" decoding="async"><span class="photo-caption">Strathcona Park, British Columbia</span></a>
+          <a class="photo is-extra" href="assets/photos/img-3651-2400.jpg" data-w="9310" data-h="3878" data-caption="Grand Canyon, Arizona" style="--ar: 2.4007; --tone: #4c6c99"><img src="assets/photos/img-3651-800.jpg" srcset="assets/photos/img-3651-800.jpg 800w, assets/photos/img-3651-1600.jpg 1600w" sizes="(max-width: 520px) 504px, (max-width: 900px) 739px, 1076px" width="800" height="333" alt="Panorama of a vast canyon from a rocky viewpoint" loading="lazy" decoding="async"><span class="photo-caption">Grand Canyon, Arizona</span></a>
+          <a class="photo is-extra" href="assets/photos/img-0647-1600.jpg" data-w="3024" data-h="4032" data-caption="Barbados" style="--ar: 0.75; --tone: #8f7748"><img src="assets/photos/img-0647-800.jpg" srcset="assets/photos/img-0647-800.jpg 800w, assets/photos/img-0647-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Golden sunset rays over the ocean" loading="lazy" decoding="async"><span class="photo-caption">Barbados</span></a>
+          <a class="photo is-extra" href="assets/photos/img-3293-1600.jpg" data-w="3024" data-h="4032" data-caption="Yosemite Valley" style="--ar: 0.75; --tone: #527aa2"><img src="assets/photos/img-3293-800.jpg" srcset="assets/photos/img-3293-800.jpg 800w, assets/photos/img-3293-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A forested valley below granite cliffs" loading="lazy" decoding="async"><span class="photo-caption">Yosemite Valley</span></a>
+          <a class="photo is-extra" href="assets/photos/img-0023-1600.jpg" data-w="3024" data-h="4032" data-caption="Butchart Gardens, British Columbia" style="--ar: 0.75; --tone: #757867"><img src="assets/photos/img-0023-800.jpg" srcset="assets/photos/img-0023-800.jpg 800w, assets/photos/img-0023-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A flower garden in a sunken valley, with winding paths and evergreens" loading="lazy" decoding="async"><span class="photo-caption">Butchart Gardens, British Columbia</span></a>
+          <a class="photo is-extra" href="assets/photos/img-9403-1600.jpg" data-w="3024" data-h="4032" data-caption="Strathcona Park, British Columbia" style="--ar: 0.75; --tone: #547493"><img src="assets/photos/img-9403-800.jpg" srcset="assets/photos/img-9403-800.jpg 800w, assets/photos/img-9403-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="An alpine lake below a rocky mountain peak" loading="lazy" decoding="async"><span class="photo-caption">Strathcona Park, British Columbia</span></a>
+          <a class="photo is-extra" href="assets/photos/img-1884-2400.jpg" data-w="7036" data-h="3872" data-caption="Chamonix, France" style="--ar: 1.8171; --tone: #4171a5"><img src="assets/photos/img-1884-800.jpg" srcset="assets/photos/img-1884-800.jpg 800w, assets/photos/img-1884-1600.jpg 1600w" sizes="(max-width: 520px) 382px, (max-width: 900px) 560px, 814px" width="800" height="440" alt="Panorama over snowy peaks and a valley town far below" loading="lazy" decoding="async"><span class="photo-caption">Chamonix, France</span></a>
+          <a class="photo is-extra" href="assets/photos/img-3579-1600.jpg" data-w="3024" data-h="4032" data-caption="Zion, Utah" style="--ar: 0.75; --tone: #4f6a7b"><img src="assets/photos/img-3579-800.jpg" srcset="assets/photos/img-3579-800.jpg 800w, assets/photos/img-3579-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A shallow river running between red canyon walls" loading="lazy" decoding="async"><span class="photo-caption">Zion, Utah</span></a>
+          <a class="photo is-extra" href="assets/photos/img-7913-1600.jpg" data-w="3024" data-h="4032" data-caption="Oregon Coast" style="--ar: 0.75; --tone: #4779ad"><img src="assets/photos/img-7913-800.jpg" srcset="assets/photos/img-7913-800.jpg 800w, assets/photos/img-7913-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A long sandy coastline seen through evergreen trees" loading="lazy" decoding="async"><span class="photo-caption">Oregon Coast</span></a>
+          <a class="photo is-extra" href="assets/photos/img-3354-2400.jpg" data-w="11142" data-h="3924" data-caption="Yosemite" style="--ar: 2.8394; --tone: #637a8d"><img src="assets/photos/img-3354-800.jpg" srcset="assets/photos/img-3354-800.jpg 800w, assets/photos/img-3354-1600.jpg 1600w" sizes="(max-width: 520px) 596px, (max-width: 900px) 875px, 1272px" width="800" height="282" alt="Panorama of towering granite cliffs above a forest" loading="lazy" decoding="async"><span class="photo-caption">Yosemite</span></a>
+          <a class="photo is-extra" href="assets/photos/img-5194-1600.jpg" data-w="3024" data-h="4032" data-caption="Norway" style="--ar: 0.75; --tone: #47709d"><img src="assets/photos/img-5194-800.jpg" srcset="assets/photos/img-5194-800.jpg 800w, assets/photos/img-5194-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="The sun setting over a ski slope and distant peaks" loading="lazy" decoding="async"><span class="photo-caption">Norway</span></a>
+          <a class="photo is-extra" href="assets/photos/img-7859-1600.jpg" data-w="3024" data-h="4032" data-caption="Oregon Coast" style="--ar: 0.75; --tone: #4a72a2"><img src="assets/photos/img-7859-800.jpg" srcset="assets/photos/img-7859-800.jpg 800w, assets/photos/img-7859-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Rocky sea stacks and surf along a rugged coast" loading="lazy" decoding="async"><span class="photo-caption">Oregon Coast</span></a>
+          <a class="photo is-extra" href="assets/photos/img-7692-1600.jpg" data-w="3024" data-h="4032" data-caption="Tuolumne Meadows, Yosemite" style="--ar: 0.75; --tone: #6181aa"><img src="assets/photos/img-7692-800.jpg" srcset="assets/photos/img-7692-800.jpg 800w, assets/photos/img-7692-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A calm river winding through a mountain meadow" loading="lazy" decoding="async"><span class="photo-caption">Tuolumne Meadows, Yosemite</span></a>
+          <a class="photo is-extra" href="assets/photos/img-2640-1600.jpg" data-w="3024" data-h="4032" data-caption="Howe Sound, British Columbia" style="--ar: 0.75; --tone: #446487"><img src="assets/photos/img-2640-800.jpg" srcset="assets/photos/img-2640-800.jpg 800w, assets/photos/img-2640-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Low clouds and mountains reflected in calm water" loading="lazy" decoding="async"><span class="photo-caption">Howe Sound, British Columbia</span></a>
+          <a class="photo is-extra" href="assets/photos/img-7473-2400.jpg" data-w="6660" data-h="3854" data-caption="Bon Echo, Ontario" style="--ar: 1.7281; --tone: #787b76"><img src="assets/photos/img-7473-800.jpg" srcset="assets/photos/img-7473-800.jpg 800w, assets/photos/img-7473-1600.jpg 1600w" sizes="(max-width: 520px) 363px, (max-width: 900px) 532px, 774px" width="800" height="463" alt="Autumn trees on a tall cliff rising out of a lake" loading="lazy" decoding="async"><span class="photo-caption">Bon Echo, Ontario</span></a>
+          <a class="photo is-extra" href="assets/photos/img-9338-1600.jpg" data-w="3024" data-h="4032" style="--ar: 0.75; --tone: #6b6058"><img src="assets/photos/img-9338-800.jpg" srcset="assets/photos/img-9338-800.jpg 800w, assets/photos/img-9338-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="The sun setting over the trees beside an empty road" loading="lazy" decoding="async"></a>
+          <a class="photo is-extra" href="assets/photos/img-1695-1600.jpg" data-w="3024" data-h="4032" data-caption="French Alps" style="--ar: 0.75; --tone: #4e5765"><img src="assets/photos/img-1695-800.jpg" srcset="assets/photos/img-1695-800.jpg 800w, assets/photos/img-1695-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Mountain views from a chalet balcony on a sunny day" loading="lazy" decoding="async"><span class="photo-caption">French Alps</span></a>
+          <a class="photo is-extra" href="assets/photos/img-6271-2400.jpg" data-w="11106" data-h="3846" data-caption="Shoshone Falls, Idaho" style="--ar: 2.8877; --tone: #848c90"><img src="assets/photos/img-6271-800.jpg" srcset="assets/photos/img-6271-800.jpg 800w, assets/photos/img-6271-1600.jpg 1600w" sizes="(max-width: 520px) 606px, (max-width: 900px) 889px, 1294px" width="800" height="277" alt="Panorama of a wide waterfall in a canyon" loading="lazy" decoding="async"><span class="photo-caption">Shoshone Falls, Idaho</span></a>
+          <a class="photo is-extra" href="assets/photos/img-2448-1600.jpg" data-w="3024" data-h="4032" data-caption="Oregon Coast" style="--ar: 0.75; --tone: #8c7754"><img src="assets/photos/img-2448-800.jpg" srcset="assets/photos/img-2448-800.jpg 800w, assets/photos/img-2448-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="The sun setting between rocky sea stacks" loading="lazy" decoding="async"><span class="photo-caption">Oregon Coast</span></a>
+          <a class="photo is-extra" href="assets/photos/img-9769-1600.jpg" data-w="3024" data-h="4032" data-caption="Mount Baker, Washington" style="--ar: 0.75; --tone: #6597c5"><img src="assets/photos/img-9769-800.jpg" srcset="assets/photos/img-9769-800.jpg 800w, assets/photos/img-9769-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A snow-capped mountain across calm blue water" loading="lazy" decoding="async"><span class="photo-caption">Mount Baker, Washington</span></a>
+          <a class="photo is-extra" href="assets/photos/img-7697-1600.jpg" data-w="3024" data-h="4032" data-caption="Tuolumne Meadows, Yosemite" style="--ar: 0.75; --tone: #5c7a84"><img src="assets/photos/img-7697-800.jpg" srcset="assets/photos/img-7697-800.jpg 800w, assets/photos/img-7697-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A green mountain meadow under a clear sky" loading="lazy" decoding="async"><span class="photo-caption">Tuolumne Meadows, Yosemite</span></a>
+          <a class="photo is-extra" href="assets/photos/img-5106-1600.jpg" data-w="3024" data-h="4032" data-caption="Norway" style="--ar: 0.75; --tone: #606f83"><img src="assets/photos/img-5106-800.jpg" srcset="assets/photos/img-5106-800.jpg 800w, assets/photos/img-5106-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="Snowy mountains in the fading evening light" loading="lazy" decoding="async"><span class="photo-caption">Norway</span></a>
+          <a class="photo is-extra" href="assets/photos/img-7800-2400.jpg" data-w="8146" data-h="3918" data-caption="Quebec" style="--ar: 2.0791; --tone: #5585af"><img src="assets/photos/img-7800-800.jpg" srcset="assets/photos/img-7800-800.jpg 800w, assets/photos/img-7800-1600.jpg 1600w" sizes="(max-width: 520px) 437px, (max-width: 900px) 640px, 931px" width="800" height="385" alt="A calm lake surrounded by green, rolling hills" loading="lazy" decoding="async"><span class="photo-caption">Quebec</span></a>
+          <a class="photo is-extra" href="assets/photos/img-7359-1600.jpg" data-w="3024" data-h="4032" data-caption="New Brunswick" style="--ar: 0.75; --tone: #415173"><img src="assets/photos/img-7359-800.jpg" srcset="assets/photos/img-7359-800.jpg 800w, assets/photos/img-7359-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A flagpole silhouetted against a sunset over the water" loading="lazy" decoding="async"><span class="photo-caption">New Brunswick</span></a>
+          <a class="photo is-extra" href="assets/photos/img-5473-2400.jpg" data-w="11968" data-h="3822" data-caption="New Hampshire" style="--ar: 3.1313; --tone: #4f7498"><img src="assets/photos/img-5473-800.jpg" srcset="assets/photos/img-5473-800.jpg 800w, assets/photos/img-5473-1600.jpg 1600w" sizes="(max-width: 520px) 658px, (max-width: 900px) 964px, 1403px" width="800" height="255" alt="Panorama over forested mountains under a bright blue sky" loading="lazy" decoding="async"><span class="photo-caption">New Hampshire</span></a>
+          <a class="photo is-extra" href="assets/photos/img-8092-1600.jpg" data-w="3024" data-h="4032" data-caption="Vancouver Island, British Columbia" style="--ar: 0.75; --tone: #687c98"><img src="assets/photos/img-8092-800.jpg" srcset="assets/photos/img-8092-800.jpg 800w, assets/photos/img-8092-1600.jpg 1600w" sizes="(max-width: 520px) 158px, (max-width: 900px) 231px, 336px" width="800" height="1067" alt="A forested valley and small lake seen from a rocky lookout" loading="lazy" decoding="async"><span class="photo-caption">Vancouver Island, British Columbia</span></a>
+          <a class="photo is-extra" href="assets/photos/img-8242-2400.jpg" data-w="8122" data-h="3944" data-caption="Vancouver Island, British Columbia" style="--ar: 2.0593; --tone: #5281a9"><img src="assets/photos/img-8242-800.jpg" srcset="assets/photos/img-8242-800.jpg 800w, assets/photos/img-8242-1600.jpg 1600w" sizes="(max-width: 520px) 432px, (max-width: 900px) 634px, 923px" width="800" height="388" alt="A rocky shoreline opening onto calm blue water" loading="lazy" decoding="async"><span class="photo-caption">Vancouver Island, British Columbia</span></a>
+        </div>
+        <div class="gallery-more">
+          <button class="pill" type="button" data-show-all hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9.5 6 6 6-6"/></svg>Show all 49 photos
+          </button>
+        </div>
+        <!-- gallery:end -->
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-inner reveal">
+        <h2 class="section-title" id="contact-title">Contact</h2>
+        <p class="lead">Want to get in touch? Send me an email or find me on LinkedIn.</p>
+        <ul class="link-row link-row-center">
+          <li><a class="pill pill-solid" href="#contact" data-email>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.5 8 5.5 8-5.5"/></svg><span data-email-text>Email me</span></a></li>
+          <li><a class="pill" href="https://github.com/PaulWarnick21" rel="me noopener" target="_blank">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8.5 8-4 4 4 4M15.5 8l4 4-4 4"/></svg>GitHub</a></li>
+          <li><a class="pill" href="https://www.linkedin.com/in/paulwarnick/" rel="me noopener" target="_blank">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 10.5V17M8 7.5v.01M12 17v-6.5M12 13.5a2.5 2.5 0 0 1 5 0V17"/></svg>LinkedIn</a></li>
+        </ul>
+        <noscript><p class="noscript-email">paulwarnick21 [at] gmail [dot] com</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span data-year>2026</span> Paul Warnick</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
